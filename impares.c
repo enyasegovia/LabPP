@@ -1,3 +1,8 @@
+/*
+ Arquivo impares.c
+ Data criacao: 24/nov/22
+ Autor: Enya Segovia
+ */
 
 #include <stdio.h>
 
