@@ -1,0 +1,65 @@
+/*
+ Arquivo minMax.c
+ Data criação: 12/dez/22
+ Autor: Enya Segóvia
+ */
+
+
+
+#include <stdio.h> 
+
+int main(){
+
+    int numero;
+    int minimo;
+    int maximo;
+
+
+    printf("Escreva a quantidade de elementos.\n");
+    scanf("%d", &numero);
+
+    int vetor[numero];
+
+    for(int i=0; i < numero; i++) {
+
+        printf("Coloque o elemento n%d\n", i+1);
+        scanf("%d", vetor+i);
+    }
+
+    minimo = vetor[0];
+    maximo = vetor[0];
+
+
+    for(int i=0; numero> i; i++){
+        if(vetor[i]<minimo){
+            minimo = vetor[i];
+        }
+            if(vetor[i]>maximo){
+                maximo = vetor[i];
+        }
+
+
+
+    }
+
+    for(int i=0; numero> i; i++){
+
+        if(vetor[i]==maximo){
+            printf("%d> ", maximo);
+        }
+        
+        if(vetor[i]==minimo){
+            printf("%d< ", minimo);
+        }
+
+        if(vetor[i]!=minimo && vetor[i]!=maximo){
+        printf("%d ", vetor[i]);
+        }
+
+    }
+
+
+return 0;
+}
+
+
