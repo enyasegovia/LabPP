@@ -1,9 +1,8 @@
 /*
-Peça ao usuário o número de elementos do tipo ponto flutante (N) que deseja trabalhar.
-Depois peça elemento a elemento (a_i) quais os números desejados. Calcule e apresente a
-média (μ) e o desvio-padrão (σ, assuma a versão com base na população) da coleção de
-números:
-*/
+ Arquivo muSigma.c
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
+ */
 
 #include <stdlib.h>
 #include <stdio.h>
