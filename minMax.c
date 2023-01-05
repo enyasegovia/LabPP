@@ -1,7 +1,7 @@
 /*
  Arquivo minMax.c
- Data criação: 12/dez/22
- Autor: Enya Segóvia
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
  */
 
 
