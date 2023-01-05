@@ -1,3 +1,9 @@
+/*
+ Arquivo diferencas.c
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 
