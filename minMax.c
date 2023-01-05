@@ -5,11 +5,11 @@
  */
 
 
-
+#include <stdlib.h>
 #include <stdio.h> 
 
 int main(){
-
+    int i;
     int numero;
     int minimo;
     int maximo;
@@ -18,28 +18,29 @@ int main(){
     printf("Escreva a quantidade de elementos.\n");
     scanf("%d", &numero);
 
-    int vetor[numero];
+    int* vetor;
+    vetor = (int *) malloc(numero * sizeof(int));
+    if(vetor == NULL){
+        printf("ERRO DE ALOCACAO DE MEMORIA!");
+        exit(1);
+    }
 
-    for(int i=0; i < numero; i++) {
-
+    for(i = 0; i < numero; i++) {
         printf("Coloque o elemento n%d\n", i+1);
         scanf("%d", vetor+i);
     }
 
+
     minimo = vetor[0];
     maximo = vetor[0];
 
-
-    for(int i=0; numero> i; i++){
+    for(i = 0; i < numero; i++){
         if(vetor[i]<minimo){
             minimo = vetor[i];
         }
-            if(vetor[i]>maximo){
-                maximo = vetor[i];
+        if(vetor[i]>maximo){
+            maximo = vetor[i];
         }
-
-
-
     }
 
     for(int i=0; numero> i; i++){
@@ -58,8 +59,8 @@ int main(){
 
     }
 
-
-return 0;
+    free(vetor);
+    return 0;
 }
 
 
