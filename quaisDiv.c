@@ -1,12 +1,8 @@
 /*
-Peça ao usuário a quantidade de elementos do tipo inteiro (N) que deseja trabalhar.
-Depois peça elemento a elemento (a_i) quais os números desejados. Na sequência, peça o
-inteiro que será a referência (R) para encontrar no vetor quem é seu divisor. Imprima os
-números informados, mas, logo após um divisor de R, imprima o caractere #.
-
-Exemplo: se o usuário informar que deseja trabalhar com 6 números que são 3, 1, 2, 42,
-25 e 12, e quer o 12 como referência, imprima 3# 1# 2# 42 25 12#.
-*/
+ Arquivo quaisDiv.c
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
+ */
 
 #include <stdlib.h> // malloc free
 #include <stdio.h> // printf scanf
