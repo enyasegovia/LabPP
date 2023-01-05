@@ -1,10 +1,8 @@
 /*
-O usuário deve entrar com a quantidade de elementos desejados para um vetor e depois
-alimentar cada um deles entre inteiros positivos e negativos. Escreva um programa que
-remova todos os números negativos, deixando apenas os positivos e zeros. Imprima o
-vetor se contiver algum elemento. Se todos os números forem negativos, avise ao usuário
-que o vetor está vazio.
-*/
+ Arquivo remNegativos.c
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
+ */
 
 #include <stdlib.h>
 #include <stdio.h>
