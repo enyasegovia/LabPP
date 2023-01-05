@@ -1,9 +1,8 @@
 /*
-Peça ao usuário a quantidade de elementos do tipo ponto flutante (N) que deseja trabalhar.
-Depois peça elemento a elemento (a_i) quais os números desejados. Imprima os
-elementos informados separados pelo sinal de multiplicação (∗) seguidos pelo sinal de
-igual (=) e terminando com o produtório dos elementos.
-*/
+ Arquivo produtorio.c
+ Data criacao: 05/jan/23
+ Autor: Enya Segovia
+ */
 
 #include <stdlib.h>
 #include <stdio.h>
