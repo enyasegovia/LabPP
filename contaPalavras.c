@@ -1,17 +1,7 @@
 /*
-Peça ao usuário para escrever uma mensagem de uma linha (uma palavra,
-uma frase, algum texto). Conte o número de palavras dentro dessa mensagem.
-Como critério para o que deve ser considerado uma palavra para este
-exercício, considere uma palavra definida por uma coleção de letras
-adjacentes, dígitos (alfanuméricos) e/ou hífen (‘-’) cercado por outros
-caracteres, como espaços e sinais de pontuação. Você deve pensar em uma
-função para determinar se algum caractere faz parte de uma palavra ou não.
-Assuma que nenhum diacrítico será utilizado pelo usuário e reserve 1kB
-(1024) de memória para a entrada do usuário. A ideia aqui é semelhante
-ao processo de “tokenização” no processamento de linguagem natural, mas,
-em vez de separar as palavras, você só precisa contá-las (por exemplo,
-usando uma máquina de estado simples).
-*/
+ Arquivo contaPalavras.c
+ Autor: Enya Segovia
+ */
 
 #include <string.h>
 #include <stdio.h>
