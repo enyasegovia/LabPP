@@ -1,8 +1,7 @@
 /*
-Peça ao usuário para entrar com uma frase. Seu programa deve
-contar o número total de letras, dígitos e caracteres diversos
-e apresentar como resposta.
-*/
+ Arquivo contaCaracteres.c
+ Autor: Enya Segovia
+ */
 
 #include <string.h>
 #include <stdio.h>
