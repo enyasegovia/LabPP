@@ -1,3 +1,8 @@
+/*
+ Arquivo txtFibonacc.c
+ Autor: Enya Segovia
+ */
+
 #include <stdlib.h>
 #include <stdio.h>
 
