@@ -1,3 +1,8 @@
+/*
+ Arquivo reverteString.c
+ Autor: Enya Segovia
+ */
+
 #include <string.h>
 #include <stdio.h>
 #include <math.h>
