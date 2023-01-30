@@ -1,9 +1,7 @@
 /*
-Peça ao usuário para digitar uma palavra. Seu programa precisa contar as vogais e
-apresentá-las ao usuário. Para este exercício, ignore outras letras que podem ou não ser
-consideradas vogais, ou seja, considere apenas “A, E, I, O e U” (tanto minúsculas quanto
-maiúsculas) como vogais.
-*/
+ Arquivo contaVogais.c
+ Autor: Enya Segovia
+ */
 
 #include <string.h>
 #include <stdio.h>
