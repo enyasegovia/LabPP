@@ -1,11 +1,7 @@
 /*
-Palíndromo, do grego palin (novo) e dromo (percurso), é toda palavra
-ou frase que pode ser lida de trás pra frente e que, independente da
-direção, mantém o seu sentido. Peça ao usuário para escrever uma mensagem
-de uma linha (uma palavra, uma frase, algum texto). Verifique se a
-mensagem é um palíndrono.
-*/
-
+ Arquivo palindrono.c
+ Autor: Enya Segovia
+ */
 #include <string.h>
 #include <stdio.h>
 
