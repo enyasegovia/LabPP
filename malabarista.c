@@ -1,4 +1,7 @@
-
+/*
+ Arquivo malabarista.c
+ Autor: Enya Segovia
+ */
 
 
 #include <stdio.h>
