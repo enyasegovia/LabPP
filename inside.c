@@ -1,3 +1,9 @@
+/*
+ Arquivo inside.c
+ Autor: Enya Segovia
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
